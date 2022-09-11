@@ -21,11 +21,11 @@ helm registry logout registry.bioturing.com
 helm show all oci://registry.bioturing.com/helm-charts/<helm chart name> --version <helm chart version>
 
 # Action into helm chart name
-helm template myrelease oci://registry.bioturing.com/helm-charts/<helm chart name> --version <helm chart version>
-helm install myrelease oci://registry.bioturing.com/helm-charts/<helm chart name> --version <helm chart version>
-helm upgrade myrelease oci://registry.bioturing.com/helm-charts/<helm chart name> --version <helm chart version>
+helm template bioturing oci://registry.bioturing.com/helm-charts/<helm chart name> --version <helm chart version>
+helm install bioturing oci://registry.bioturing.com/helm-charts/<helm chart name> --version <helm chart version>
+helm upgrade bioturing oci://registry.bioturing.com/helm-charts/<helm chart name> --version <helm chart version>
 
 # Example
-helm template myrelease oci://registry.bioturing.com/helm-charts/bbrowserx --version 1.0.0
-helm install myrelease oci://registry.bioturing.com/helm-charts/bbrowserx --version 1.0.0
+helm template bioturing oci://registry.bioturing.com/helm-charts/bbrowserx --version 1.0.0
+helm install bioturing oci://registry.bioturing.com/helm-charts/bbrowserx --version 1.0.0
 ```
