@@ -9,6 +9,7 @@ Helm chart directly from it into your Kubernetes cluster. Please refer to the
 the additional details required.
 
 ```shell
+# Prior to Helm v3.8.0, OCI support was considered experimental and needed to be enabled. As of v3.8.0 it is enabled by default.
 # Login to Bioturing's Helm chart repository
 export HELM_EXPERIMENTAL_OCI=1
 helm registry login -u your_account registry.bioturing.com
