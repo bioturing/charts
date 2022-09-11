@@ -25,10 +25,3 @@ helm upgrade myrelease oci://registry.bioturing.com/helm-charts/<helm chart name
 helm template myrelease oci://registry.bioturing.com/helm-charts/bbrowserx --version 1.0.0
 helm install myrelease oci://registry.bioturing.com/helm-charts/bbrowserx --version 1.0.0
 ```
-
-## Refers
-
-[Kubernetes]: https://kubernetes.io
-
-[Helm]: https://helm.sh
-
