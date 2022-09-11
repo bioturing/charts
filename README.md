@@ -13,6 +13,9 @@ the additional details required.
 export HELM_EXPERIMENTAL_OCI=1
 helm registry login -u your_account registry.bioturing.com
 
+# Logout Bioturing's Helm chart repository
+helm registry logout registry.bioturing.com
+
 # Show information of helm chart name
 helm show all oci://registry.bioturing.com/helm-charts/<helm chart name> --version <helm chart version>
 
