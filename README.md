@@ -16,19 +16,21 @@ helm registry login -u your_account registry.bioturing.com
 
 # Add repo charts
 helm repo add bioturing https://registry.bioturing.com/charts/
+helm repo list
+helm repo update
 
 # Logout Bioturing's Helm chart repository
 helm registry logout registry.bioturing.com
 
 # Show information of helm chart name
-helm show all https://registry.bioturing.com/charts/<helm chart name> --version <helm chart version>
+helm show all bioturing/<helm chart name> --version <helm chart version>
 
 # Action into helm chart name
-helm template bioturing https://registry.bioturing.com/charts/<helm chart name> --version <helm chart version>
-helm install bioturing https://registry.bioturing.com/charts/<helm chart name> --version <helm chart version>
-helm upgrade bioturing https://registry.bioturing.com/charts/<helm chart name> --version <helm chart version>
+helm template bioturing bioturing/<helm chart name> --version <helm chart version>
+helm install bioturing bioturing/<helm chart name> --version <helm chart version>
+helm upgrade bioturing bioturing/<helm chart name> --version <helm chart version>
 
 # Example
-helm template bioturing https://registry.bioturing.com/charts/bbrowserx --version 1.0.0
-helm install bioturing https://registry.bioturing.com/charts/bbrowserx --version 1.0.0
+helm template bioturing bioturing/bbrowserx --version 1.0.0
+helm install bioturing bioturing/bbrowserx --version 1.0.0
 ```
