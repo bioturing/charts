@@ -14,18 +14,21 @@ the additional details required.
 export HELM_EXPERIMENTAL_OCI=1
 helm registry login -u your_account registry.bioturing.com
 
+# Add repo charts
+helm repo add bioturing https://registry.bioturing.com/charts/
+
 # Logout Bioturing's Helm chart repository
 helm registry logout registry.bioturing.com
 
 # Show information of helm chart name
-helm show all oci://registry.bioturing.com/helm-charts/<helm chart name> --version <helm chart version>
+helm show all https://registry.bioturing.com/charts/<helm chart name> --version <helm chart version>
 
 # Action into helm chart name
-helm template bioturing oci://registry.bioturing.com/helm-charts/<helm chart name> --version <helm chart version>
-helm install bioturing oci://registry.bioturing.com/helm-charts/<helm chart name> --version <helm chart version>
-helm upgrade bioturing oci://registry.bioturing.com/helm-charts/<helm chart name> --version <helm chart version>
+helm template bioturing https://registry.bioturing.com/charts/<helm chart name> --version <helm chart version>
+helm install bioturing https://registry.bioturing.com/charts/<helm chart name> --version <helm chart version>
+helm upgrade bioturing https://registry.bioturing.com/charts/<helm chart name> --version <helm chart version>
 
 # Example
-helm template bioturing oci://registry.bioturing.com/helm-charts/bbrowserx --version 1.0.0
-helm install bioturing oci://registry.bioturing.com/helm-charts/bbrowserx --version 1.0.0
+helm template bioturing https://registry.bioturing.com/charts/bbrowserx --version 1.0.0
+helm install bioturing https://registry.bioturing.com/charts/bbrowserx --version 1.0.0
 ```
