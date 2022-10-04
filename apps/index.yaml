@@ -2,13 +2,13 @@ apiVersion: v1
 entries:
   ecosystem:
   - apiVersion: v2
-    appVersion: 1.0.16
-    created: "2022-10-04T10:50:15.686549+07:00"
+    appVersion: 1.0.18
+    created: "2022-10-04T23:16:20.756805+07:00"
     description: BioTuring System is a GPU-accelerated single-cell and spatial platform
       developed by BioTuring®. It dramatically increases the computing performance
       of single-cell and spatial analysis by harnessing the power of the graphics
       processing unit (GPU).
-    digest: 25cbbf0cad1c7757d8dd91232ea456740c989761c7c14ef94a6784e69be05515
+    digest: a24c6af5553ab19fa22b166651b02461c7f63e0c852c64e24c35aea5cc4e7511
     home: https://bioturing.com
     keywords:
     - ingress
@@ -20,6 +20,27 @@ entries:
     - https://github.com/bioturing/helmchart
     type: application
     urls:
-    - https://github.com/bioturing/helmchart/ecosystem-1.0.16.tgz
+    - https://bioturing.github.io/charts/apps/ecosystem-1.0.18.tgz
+    version: 1.0.18
+  - apiVersion: v2
+    appVersion: 1.0.16
+    created: "2022-10-04T23:16:20.755307+07:00"
+    description: BioTuring System is a GPU-accelerated single-cell and spatial platform
+      developed by BioTuring®. It dramatically increases the computing performance
+      of single-cell and spatial analysis by harnessing the power of the graphics
+      processing unit (GPU).
+    digest: 57c36290b9d606db990064cbe7e54697985074c225789a5b1c10df6fdafbcce9
+    home: https://bioturing.com
+    keywords:
+    - ingress
+    - nginx
+    maintainers:
+    - name: support@bioturing.com
+    name: ecosystem
+    sources:
+    - https://github.com/bioturing/helmchart
+    type: application
+    urls:
+    - https://bioturing.github.io/charts/apps/ecosystem-1.0.16.tgz
     version: 1.0.16
-generated: "2022-10-04T10:50:15.685256+07:00"
+generated: "2022-10-04T23:16:20.728186+07:00"
