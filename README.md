@@ -15,7 +15,7 @@ export HELM_EXPERIMENTAL_OCI=1
 helm registry login -u your_account registry.bioturing.com
 
 # Add repo charts
-helm repo add bioturing https://registry.bioturing.com/charts/
+helm repo add bioturing https://github.com/bioturing/helmchart/
 helm repo list
 helm repo update
 
@@ -31,6 +31,6 @@ helm install bioturing bioturing/<helm chart name> --version <helm chart version
 helm upgrade bioturing bioturing/<helm chart name> --version <helm chart version>
 
 # Example
-helm template bioturing bioturing/bbrowserx --version 1.0.0
-helm install bioturing bioturing/bbrowserx --version 1.0.0
+helm template bioturing bioturing/bbrowserx --version 1.0.18
+helm install bioturing bioturing/bbrowserx --version 1.0.18
 ```
