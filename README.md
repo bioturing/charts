@@ -15,7 +15,7 @@ export HELM_EXPERIMENTAL_OCI=1
 helm registry login -u your_account registry.bioturing.com
 
 # Add repo charts
-helm repo add bioturing https://github.com/bioturing/helmchart/
+helm repo add bioturing https://github.com/bioturing/helmchart/apps/
 helm repo list
 helm repo update
 
