@@ -10,7 +10,7 @@ export HELM_EXPERIMENTAL_OCI=1
 helm registry login -u your_account registry.bioturing.com
 
 # Add repo charts
-helm repo add bioturing https://charts.bioturing.com/apps/
+helm repo add bioturing https://bioturing.github.io/charts/apps/
 helm repo update
 helm search repo bioturing
 
@@ -52,7 +52,7 @@ To install Helm, refer to the [Helm install guide](https://github.com/helm/helm#
 The following command allows you to download and install all the charts from this repository:
 
 ```
-helm repo add bioturing https://charts.bioturing.com/apps
+helm repo add bioturing https://bioturing.github.io/charts/apps
 ```
 
 ### Using Helm
