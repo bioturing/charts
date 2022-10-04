@@ -6,7 +6,6 @@ Popular applications, provided by [Bioturing](https://bioturing.com), ready to l
 
 ```shell
 # Login to Bioturing's Helm chart repository
-export HELM_EXPERIMENTAL_OCI=1
 helm registry login -u your_account registry.bioturing.com
 
 # Add repo charts
