@@ -1,21 +1,16 @@
-Bioturing HELM charts
-# [helm-chart](https://github.com/bioturing/helmchart)
+# The Bioturing Library for Kubernetes
 
-## Usage
+Popular applications, provided by Bioturing, ready to launch on Kubernetes using Kubernetes Helm.
 
-This Helm chart repository enables you to install Bioturing's softwares
-Helm chart directly from it into your Kubernetes cluster. Please refer to the
-[Bioturing Helm chart documentation](https://github.com/bioturing/helmchart)
-the additional details required.
+## TL;DR
 
 ```shell
-# Prior to Helm v3.8.0, OCI support was considered experimental and needed to be enabled. As of v3.8.0 it is enabled by default.
 # Login to Bioturing's Helm chart repository
 export HELM_EXPERIMENTAL_OCI=1
 helm registry login -u your_account registry.bioturing.com
 
 # Add repo charts
-helm repo add bioturing https://github.com/bioturing/helmchart/apps/
+helm repo add bioturing https://charts.bioturing.com/bioturing/apps/
 helm repo list
 helm repo update
 
