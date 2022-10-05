@@ -1,20 +1,14 @@
-# The BioTuring Library for Kubernetes
+# BioTuring Library for Kubernetes
 
 Popular applications, provided by [BioTuring](https://bioturing.com), ready to launch on Kubernetes using Kubernetes Helm.
 
 ## TL;DR
 
 ```shell
-# Login to BioTuring's Helm chart repository
-helm registry login -u your_account registry.bioturing.com
-
 # Add repo charts
 helm repo add bioturing https://bioturing.github.io/charts/apps/
 helm repo update
 helm search repo bioturing
-
-# Logout BioTuring's Helm chart repository
-helm registry logout registry.bioturing.com
 
 # Show information of helm chart name
 helm show all bioturing/<helm chart name> --version <helm chart version>
