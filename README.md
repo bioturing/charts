@@ -21,13 +21,13 @@ helm upgrade bioturing bioturing/<helm chart name> --version <helm chart version
 
 ## Installation guide
 
-For simple
+For simple installation
 
 ```
 Use installation script at : https://github.com/bioturing/installation
 ```
 
-For manual
+For manual installation
 
 ```
 # Example
