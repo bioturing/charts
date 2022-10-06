@@ -19,8 +19,8 @@ helm install bioturing bioturing/<helm chart name> --version <helm chart version
 helm upgrade bioturing bioturing/<helm chart name> --version <helm chart version>
 
 # Example
-helm template bioturing bioturing/bbrowserx --version 1.0.18
-helm install bioturing bioturing/bbrowserx --version 1.0.18
+helm template bioturing bioturing/ecosystem --version 1.0.18
+helm install bioturing bioturing/ecosystem --version 1.0.18
 ```
 
 ## Before you begin
