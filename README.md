@@ -17,7 +17,19 @@ helm show all bioturing/<helm chart name> --version <helm chart version>
 helm template bioturing bioturing/<helm chart name> --version <helm chart version>
 helm install bioturing bioturing/<helm chart name> --version <helm chart version>
 helm upgrade bioturing bioturing/<helm chart name> --version <helm chart version>
+```
 
+## Installation guide
+
+For simple
+
+```
+Use installation script at : https://github.com/bioturing/installation
+```
+
+For manual
+
+```
 # Example
 BBTOKEN="USE TOKEN OBTAINED FROM BIOTURING"
 SSLCRT="base64 -w 0 ./bioturing.com.crt" # <- (REPLACE THIS WITH A PATH TO YOUR CRT CERTFICATE)
