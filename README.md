@@ -19,11 +19,19 @@ helm install bioturing bioturing/<helm chart name> --version <helm chart version
 helm upgrade bioturing bioturing/<helm chart name> --version <helm chart version>
 
 # Example
+BBTOKEN="USE TOKEN OBTAINED FROM BIOTURING"
+SSLCRT="base64 -w 0 ./bioturing.com.crt" # <- (REPLACE THIS WITH A PATH TO YOUR CRT CERTFICATE)
+SSLKEY="base64 -w 0 ./bioturing.com.key" # <- (REPLACE THIS WITH A PATH TO YOUR KEY)
+ADMIN_USERNAME="admin"
+ADMIN_PASSWORD="admin" # <- (CHANGE YOUR PASSWORD IF NECESSARY)
+USELETSENCRYPT="false"
+SVHOST="k8stest.bioturing.com" # <- (CHANGE THIS TO YOUR K8S INGRESS DOMAIN)
+
 helm upgrade --install --set secret.data.bbtoken="${BBTOKEN}" \
   --set secret.data.domain="${SVHOST}" \
   --set secret.server.certificate="${SSLCRT}" \
   --set secret.server.key="${SSLKEY}" \
-  --set secret.server.useletsencrypt="false" \
+  --set secret.server.useletsencrypt="${USELETSENCRYPT}" \
   --set secret.admin.username="${ADMIN_USERNAME}" \
   --set secret.admin.password="${ADMIN_PASSWORD}" \
   bioturing bioturing/ecosystem --version 1.0.18
