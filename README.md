@@ -47,7 +47,7 @@ helm upgrade --install --set secret.data.bbtoken="${BBTOKEN}" \
   --set secret.server.useletsencrypt="${USELETSENCRYPT}" \
   --set secret.admin.username="${ADMIN_USERNAME}" \
   --set secret.admin.password="${ADMIN_PASSWORD}" \
-  bioturing bioturing/ecosystem --version 1.0.18
+  bioturing bioturing/ecosystem --version 1.0.19
 ```
 
 ## Before you begin
