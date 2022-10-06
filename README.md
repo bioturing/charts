@@ -19,8 +19,14 @@ helm install bioturing bioturing/<helm chart name> --version <helm chart version
 helm upgrade bioturing bioturing/<helm chart name> --version <helm chart version>
 
 # Example
-helm template bioturing bioturing/ecosystem --version 1.0.18
-helm install bioturing bioturing/ecosystem --version 1.0.18
+helm upgrade --install --set secret.data.bbtoken="${BBTOKEN}" \
+  --set secret.data.domain="${SVHOST}" \
+  --set secret.server.certificate="${SSLCRT}" \
+  --set secret.server.key="${SSLKEY}" \
+  --set secret.server.useletsencrypt="false" \
+  --set secret.admin.username="${ADMIN_USERNAME}" \
+  --set secret.admin.password="${ADMIN_PASSWORD}" \
+  bioturing bioturing/ecosystem --version 1.0.18
 ```
 
 ## Before you begin
