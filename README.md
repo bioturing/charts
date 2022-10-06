@@ -10,6 +10,9 @@ helm repo add bioturing https://bioturing.github.io/charts/apps/
 helm repo update
 helm search repo bioturing
 
+# Login BioTuring registry
+helm registry login -u admin registry.bioturing.com
+
 # Show information of helm chart name
 helm show all bioturing/<helm chart name> --version <helm chart version>
 
