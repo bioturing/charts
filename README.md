@@ -43,17 +43,22 @@ USELETSENCRYPT="false"
 SVHOST="k8stest.bioturing.com" # <- (CHANGE THIS TO YOUR K8S INGRESS DOMAIN)
 APP_DATA_SIZE="50Gi" # <- (CHANGE THIS TO YOUR APP-PVC SIZE)
 USER_DATA_SIZE="100Gi" # <- (CHANGE THIS TO YOUR USER-PVC SIZE)
+CHART_VERSION="1.0.20" # <- (CHANGE IT IF NECESSARY)
+LC_ALL="C.UTF-8" # <- (CHANGE IT IF NECESSARY)
+LC_LANG="C.UTF-8" # <- (CHANGE IT IF NECESSARY)
 
 helm upgrade --install --set secret.data.bbtoken="${BBTOKEN}" \
   --set secret.data.domain="${SVHOST}" \
   --set secret.server.certificate="${SSLCRT}" \
   --set secret.server.key="${SSLKEY}" \
   --set secret.server.useletsencrypt="${USELETSENCRYPT}" \
+  --set secret.server.lcall="${LC_ALL}" \
+  --set secret.server.lclang="${LC_LANG}" \
   --set secret.admin.username="${ADMIN_USERNAME}" \
   --set secret.admin.password="${ADMIN_PASSWORD}" \
   --set persistence.dirs.app.size="${APP_DATA_SIZE}" \
   --set persistence.dirs.user.size="${USER_DATA_SIZE}" \
-  bioturing bioturing/ecosystem --version 1.0.19
+  bioturing bioturing/ecosystem --version ${CHART_VERSION}
 ```
 
 ## Before you begin
