@@ -41,8 +41,8 @@ ADMIN_USERNAME="admin"
 ADMIN_PASSWORD="admin" # <- (CHANGE YOUR PASSWORD IF NECESSARY)
 USELETSENCRYPT="false"
 SVHOST="k8stest.bioturing.com" # <- (CHANGE THIS TO YOUR K8S INGRESS DOMAIN)
-APP_DATA_SIZE="50Gi"
-USER_DATA_SIZE="100Gi"
+APP_DATA_SIZE="50Gi" # <- (CHANGE THIS TO YOUR APP-PVC SIZE)
+USER_DATA_SIZE="100Gi" # <- (CHANGE THIS TO YOUR USER-PVC SIZE)
 
 helm upgrade --install --set secret.data.bbtoken="${BBTOKEN}" \
   --set secret.data.domain="${SVHOST}" \
