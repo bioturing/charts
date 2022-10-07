@@ -41,6 +41,8 @@ ADMIN_USERNAME="admin"
 ADMIN_PASSWORD="admin" # <- (CHANGE YOUR PASSWORD IF NECESSARY)
 USELETSENCRYPT="false"
 SVHOST="k8stest.bioturing.com" # <- (CHANGE THIS TO YOUR K8S INGRESS DOMAIN)
+APP_DATA_SIZE="50Gi"
+USER_DATA_SIZE="100Gi"
 
 helm upgrade --install --set secret.data.bbtoken="${BBTOKEN}" \
   --set secret.data.domain="${SVHOST}" \
@@ -49,6 +51,8 @@ helm upgrade --install --set secret.data.bbtoken="${BBTOKEN}" \
   --set secret.server.useletsencrypt="${USELETSENCRYPT}" \
   --set secret.admin.username="${ADMIN_USERNAME}" \
   --set secret.admin.password="${ADMIN_PASSWORD}" \
+  --set persistence.dirs.app.size="${APP_DATA_SIZE}" \
+  --set persistence.dirs.user.size="${USER_DATA_SIZE}" \
   bioturing bioturing/ecosystem --version 1.0.19
 ```
 
