@@ -30,6 +30,8 @@ For simple installation
 
 For manual installation
 
+[Helm chart Values](https://github.com/bioturing/installation)
+
 ```
 # Example
 BBTOKEN="USE TOKEN OBTAINED FROM BIOTURING"
