@@ -3,12 +3,12 @@ entries:
   ecosystem:
   - apiVersion: v2
     appVersion: 1.0.22
-    created: "2022-10-10T00:02:10.512615+07:00"
+    created: "2022-10-11T14:11:37.789771+07:00"
     description: BioTuring System is a GPU-accelerated single-cell and spatial platform
       developed by BioTuring®. It dramatically increases the computing performance
       of single-cell and spatial analysis by harnessing the power of the graphics
       processing unit (GPU).
-    digest: 764c8d1bbd9e22b49d358b58ac6dceeaff6c61bbdeba36717592a3b870e51add
+    digest: ac2c31de2821b1bed2552a88d45ba4a7bd495f718c0fe828f084eadc070ed81c
     home: https://bioturing.com
     keywords:
     - ingress
@@ -24,7 +24,7 @@ entries:
     version: 1.0.22
   - apiVersion: v2
     appVersion: 1.0.21
-    created: "2022-10-10T00:02:10.511322+07:00"
+    created: "2022-10-11T14:11:37.788368+07:00"
     description: BioTuring System is a GPU-accelerated single-cell and spatial platform
       developed by BioTuring®. It dramatically increases the computing performance
       of single-cell and spatial analysis by harnessing the power of the graphics
@@ -45,7 +45,7 @@ entries:
     version: 1.0.21
   - apiVersion: v2
     appVersion: 1.0.20
-    created: "2022-10-10T00:02:10.50923+07:00"
+    created: "2022-10-11T14:11:37.772729+07:00"
     description: BioTuring System is a GPU-accelerated single-cell and spatial platform
       developed by BioTuring®. It dramatically increases the computing performance
       of single-cell and spatial analysis by harnessing the power of the graphics
@@ -66,7 +66,7 @@ entries:
     version: 1.0.20
   - apiVersion: v2
     appVersion: 1.0.19
-    created: "2022-10-10T00:02:10.492865+07:00"
+    created: "2022-10-11T14:11:37.755997+07:00"
     description: BioTuring System is a GPU-accelerated single-cell and spatial platform
       developed by BioTuring®. It dramatically increases the computing performance
       of single-cell and spatial analysis by harnessing the power of the graphics
@@ -87,7 +87,7 @@ entries:
     version: 1.0.19
   - apiVersion: v2
     appVersion: 1.0.18
-    created: "2022-10-10T00:02:10.475259+07:00"
+    created: "2022-10-11T14:11:37.737892+07:00"
     description: BioTuring System is a GPU-accelerated single-cell and spatial platform
       developed by BioTuring®. It dramatically increases the computing performance
       of single-cell and spatial analysis by harnessing the power of the graphics
@@ -108,7 +108,7 @@ entries:
     version: 1.0.18
   - apiVersion: v2
     appVersion: 1.0.16
-    created: "2022-10-10T00:02:10.470299+07:00"
+    created: "2022-10-11T14:11:37.73464+07:00"
     description: BioTuring System is a GPU-accelerated single-cell and spatial platform
       developed by BioTuring®. It dramatically increases the computing performance
       of single-cell and spatial analysis by harnessing the power of the graphics
@@ -127,4 +127,4 @@ entries:
     urls:
     - https://bioturing.github.io/charts/apps/ecosystem-1.0.16.tgz
     version: 1.0.16
-generated: "2022-10-10T00:02:10.453747+07:00"
+generated: "2022-10-11T14:11:37.716496+07:00"
