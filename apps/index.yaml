@@ -217,8 +217,7 @@ entries:
     description: Create undermoon CRD.
     digest: 95849b3dbd43ab518bd7b67d8d1544d0e293dcf9e44b28710f37a2101b38e83e
     maintainers:
-    - email: doyoubihgx@gmail.com
-      name: doyoubi
+    - email: support@bioturing.com
     name: undermoon-cluster
     type: application
     urls:
@@ -232,8 +231,7 @@ entries:
       services.
     digest: 3dffd72dd9e4d8289cbc2f92cdc2f0282d29c028b810ca020032fca5aec7f664
     maintainers:
-    - email: doyoubihgx@gmail.com
-      name: doyoubi
+    - email: support@bioturing.com
     name: undermoon-operator
     type: application
     urls:
@@ -247,8 +245,7 @@ entries:
       scheduling rules.
     digest: 37816f676f6ef775a1d346de4c937c03482f62c0c72c826a2ae08423dfb3d1fd
     maintainers:
-    - email: doyoubihgx@gmail.com
-      name: doyoubi
+    - email: support@bioturing.com
     name: undermoon-scheduler
     type: application
     urls:
