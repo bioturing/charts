@@ -211,7 +211,7 @@ entries:
     urls:
     - https://bioturing.github.io/charts/apps/ecosystem-1.0.16.tgz
     version: 1.0.16
-    undermoon-cluster:
+  undermoon-cluster:
   - apiVersion: v2
     created: "2022-12-17T20:13:54.804053+07:00"
     description: Create undermoon CRD.
