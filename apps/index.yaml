@@ -3,10 +3,10 @@ entries:
   biocolab:
   - apiVersion: v2
     appVersion: 1.0.1
-    created: "2023-05-12T18:18:46.346518+07:00"
+    created: "2023-05-12T18:24:38.24537+07:00"
     description: BioColab offers curated, ready-to-run notebooks, multi-omics data,
       and specialized applications designed specifically for bioinformaticians.
-    digest: ea5507ecc89041ecf1171951eb6b1a1505cc51211b27b4998d73d4fa1e405be6
+    digest: 6fdab6cf28c170584755b68f6a5f9b0be360b2f4dd56878998eca71a99527d2f
     home: https://bioturing.com
     keywords:
     - ingress
@@ -23,7 +23,7 @@ entries:
   ecosystem:
   - apiVersion: v2
     appVersion: 1.0.28
-    created: "2023-05-12T18:18:46.421831+07:00"
+    created: "2023-05-12T18:24:38.316093+07:00"
     description: BioTuring System is a GPU-accelerated single-cell and spatial platform
       developed by BioTuring®. It dramatically increases the computing performance
       of single-cell and spatial analysis by harnessing the power of the graphics
@@ -44,7 +44,7 @@ entries:
     version: 1.0.28
   - apiVersion: v2
     appVersion: 1.0.27
-    created: "2023-05-12T18:18:46.396491+07:00"
+    created: "2023-05-12T18:24:38.289188+07:00"
     description: BioTuring System is a GPU-accelerated single-cell and spatial platform
       developed by BioTuring®. It dramatically increases the computing performance
       of single-cell and spatial analysis by harnessing the power of the graphics
@@ -65,7 +65,7 @@ entries:
     version: 1.0.27
   - apiVersion: v2
     appVersion: 1.0.26
-    created: "2023-05-12T18:18:46.385432+07:00"
+    created: "2023-05-12T18:24:38.281421+07:00"
     description: BioTuring System is a GPU-accelerated single-cell and spatial platform
       developed by BioTuring®. It dramatically increases the computing performance
       of single-cell and spatial analysis by harnessing the power of the graphics
@@ -86,7 +86,7 @@ entries:
     version: 1.0.26
   - apiVersion: v2
     appVersion: 1.0.25
-    created: "2023-05-12T18:18:46.384255+07:00"
+    created: "2023-05-12T18:24:38.279468+07:00"
     description: BioTuring System is a GPU-accelerated single-cell and spatial platform
       developed by BioTuring®. It dramatically increases the computing performance
       of single-cell and spatial analysis by harnessing the power of the graphics
@@ -107,7 +107,7 @@ entries:
     version: 1.0.25
   - apiVersion: v2
     appVersion: 1.0.24
-    created: "2023-05-12T18:18:46.383049+07:00"
+    created: "2023-05-12T18:24:38.277676+07:00"
     description: BioTuring System is a GPU-accelerated single-cell and spatial platform
       developed by BioTuring®. It dramatically increases the computing performance
       of single-cell and spatial analysis by harnessing the power of the graphics
@@ -128,7 +128,7 @@ entries:
     version: 1.0.24
   - apiVersion: v2
     appVersion: 1.0.23
-    created: "2023-05-12T18:18:46.381804+07:00"
+    created: "2023-05-12T18:24:38.275962+07:00"
     description: BioTuring System is a GPU-accelerated single-cell and spatial platform
       developed by BioTuring®. It dramatically increases the computing performance
       of single-cell and spatial analysis by harnessing the power of the graphics
@@ -149,7 +149,7 @@ entries:
     version: 1.0.23
   - apiVersion: v2
     appVersion: 1.0.22
-    created: "2023-05-12T18:18:46.380483+07:00"
+    created: "2023-05-12T18:24:38.273982+07:00"
     description: BioTuring System is a GPU-accelerated single-cell and spatial platform
       developed by BioTuring®. It dramatically increases the computing performance
       of single-cell and spatial analysis by harnessing the power of the graphics
@@ -170,7 +170,7 @@ entries:
     version: 1.0.22
   - apiVersion: v2
     appVersion: 1.0.21
-    created: "2023-05-12T18:18:46.374868+07:00"
+    created: "2023-05-12T18:24:38.272074+07:00"
     description: BioTuring System is a GPU-accelerated single-cell and spatial platform
       developed by BioTuring®. It dramatically increases the computing performance
       of single-cell and spatial analysis by harnessing the power of the graphics
@@ -191,7 +191,7 @@ entries:
     version: 1.0.21
   - apiVersion: v2
     appVersion: 1.0.20
-    created: "2023-05-12T18:18:46.373117+07:00"
+    created: "2023-05-12T18:24:38.270118+07:00"
     description: BioTuring System is a GPU-accelerated single-cell and spatial platform
       developed by BioTuring®. It dramatically increases the computing performance
       of single-cell and spatial analysis by harnessing the power of the graphics
@@ -212,7 +212,7 @@ entries:
     version: 1.0.20
   - apiVersion: v2
     appVersion: 1.0.19
-    created: "2023-05-12T18:18:46.371208+07:00"
+    created: "2023-05-12T18:24:38.268017+07:00"
     description: BioTuring System is a GPU-accelerated single-cell and spatial platform
       developed by BioTuring®. It dramatically increases the computing performance
       of single-cell and spatial analysis by harnessing the power of the graphics
@@ -233,7 +233,7 @@ entries:
     version: 1.0.19
   - apiVersion: v2
     appVersion: 1.0.18
-    created: "2023-05-12T18:18:46.368879+07:00"
+    created: "2023-05-12T18:24:38.265307+07:00"
     description: BioTuring System is a GPU-accelerated single-cell and spatial platform
       developed by BioTuring®. It dramatically increases the computing performance
       of single-cell and spatial analysis by harnessing the power of the graphics
@@ -254,7 +254,7 @@ entries:
     version: 1.0.18
   - apiVersion: v2
     appVersion: 1.0.16
-    created: "2023-05-12T18:18:46.366528+07:00"
+    created: "2023-05-12T18:24:38.259465+07:00"
     description: BioTuring System is a GPU-accelerated single-cell and spatial platform
       developed by BioTuring®. It dramatically increases the computing performance
       of single-cell and spatial analysis by harnessing the power of the graphics
@@ -275,7 +275,7 @@ entries:
     version: 1.0.16
   undermoon-cluster:
   - apiVersion: v2
-    created: "2023-05-12T18:18:46.422568+07:00"
+    created: "2023-05-12T18:24:38.321144+07:00"
     description: Create undermoon CRD.
     digest: 95849b3dbd43ab518bd7b67d8d1544d0e293dcf9e44b28710f37a2101b38e83e
     maintainers:
@@ -289,7 +289,7 @@ entries:
   undermoon-operator:
   - apiVersion: v2
     appVersion: v0.4.2-dev0
-    created: "2023-05-12T18:18:46.425708+07:00"
+    created: "2023-05-12T18:24:38.324033+07:00"
     description: Undermoon operator is used to manage undermoon provideing redis cluster
       services.
     digest: 3dffd72dd9e4d8289cbc2f92cdc2f0282d29c028b810ca020032fca5aec7f664
@@ -304,7 +304,7 @@ entries:
   undermoon-scheduler:
   - apiVersion: v2
     appVersion: v0.1.0
-    created: "2023-05-12T18:18:46.426475+07:00"
+    created: "2023-05-12T18:24:38.325094+07:00"
     description: Undermoon scheduler is an optional component used to add additional
       scheduling rules.
     digest: 37816f676f6ef775a1d346de4c937c03482f62c0c72c826a2ae08423dfb3d1fd
@@ -316,4 +316,4 @@ entries:
     urls:
     - https://bioturing.github.io/charts/apps/undermoon-scheduler-0.4.2-dev0.tgz
     version: 0.4.2-dev0
-generated: "2023-05-12T18:18:46.344649+07:00"
+generated: "2023-05-12T18:24:38.243264+07:00"
