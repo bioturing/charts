@@ -2,8 +2,27 @@ apiVersion: v1
 entries:
   biocolab:
   - apiVersion: v2
+    appVersion: 1.0.10
+    created: "2023-05-12T20:38:12.57565+07:00"
+    description: BioColab offers curated, ready-to-run notebooks, multi-omics data,
+      and specialized applications designed specifically for bioinformaticians.
+    digest: c8e3f2a4da19605800cddea4338ede96fd63a9a09ca0671bdb152e30b83d34a5
+    home: https://bioturing.com
+    keywords:
+    - ingress
+    - nginx
+    maintainers:
+    - name: support@bioturing.com
+    name: biocolab
+    sources:
+    - https://github.com/bioturing/helmchart
+    type: application
+    urls:
+    - https://bioturing.github.io/charts/apps/biocolab-1.0.10.tgz
+    version: 1.0.10
+  - apiVersion: v2
     appVersion: 1.0.9
-    created: "2023-05-12T20:37:51.843078+07:00"
+    created: "2023-05-12T20:38:12.608009+07:00"
     description: BioColab offers curated, ready-to-run notebooks, multi-omics data,
       and specialized applications designed specifically for bioinformaticians.
     digest: 8678df1fb10a8b56144c32f0a9b9b436eaac40479c3ba39d45c2b35a7a428f78
@@ -22,7 +41,7 @@ entries:
     version: 1.0.9
   - apiVersion: v2
     appVersion: 1.0.7
-    created: "2023-05-12T20:37:51.841208+07:00"
+    created: "2023-05-12T20:38:12.600628+07:00"
     description: BioColab offers curated, ready-to-run notebooks, multi-omics data,
       and specialized applications designed specifically for bioinformaticians.
     digest: 0306bef78acaaf3b8952b9f2db8ec6fdd22759b93f8d033a82de4553e82d6e3d
@@ -41,7 +60,7 @@ entries:
     version: 1.0.7
   - apiVersion: v2
     appVersion: 1.0.6
-    created: "2023-05-12T20:37:51.832706+07:00"
+    created: "2023-05-12T20:38:12.586541+07:00"
     description: BioColab offers curated, ready-to-run notebooks, multi-omics data,
       and specialized applications designed specifically for bioinformaticians.
     digest: 83fb6e8aa3f32b94069d0bf4519c607fc23ce43545a313232f96823348faca8d
@@ -60,7 +79,7 @@ entries:
     version: 1.0.6
   - apiVersion: v2
     appVersion: 1.0.5
-    created: "2023-05-12T20:37:51.815932+07:00"
+    created: "2023-05-12T20:38:12.583276+07:00"
     description: BioColab offers curated, ready-to-run notebooks, multi-omics data,
       and specialized applications designed specifically for bioinformaticians.
     digest: 06459bcbfccf6114ad6368b62cf073a3aef76cd1801b276d663db1a5f06a7204
@@ -79,7 +98,7 @@ entries:
     version: 1.0.5
   - apiVersion: v2
     appVersion: 1.0.4
-    created: "2023-05-12T20:37:51.798163+07:00"
+    created: "2023-05-12T20:38:12.581371+07:00"
     description: BioColab offers curated, ready-to-run notebooks, multi-omics data,
       and specialized applications designed specifically for bioinformaticians.
     digest: 67deff76b57c7b5da4a34b69092067f5b3c7cb55313b25ab956e28c62040a73a
@@ -98,7 +117,7 @@ entries:
     version: 1.0.4
   - apiVersion: v2
     appVersion: 1.0.3
-    created: "2023-05-12T20:37:51.755579+07:00"
+    created: "2023-05-12T20:38:12.579563+07:00"
     description: BioColab offers curated, ready-to-run notebooks, multi-omics data,
       and specialized applications designed specifically for bioinformaticians.
     digest: 89be2addf673957ed6377e60ac9f921232de74abb141eff050e2e13942db470a
@@ -117,7 +136,7 @@ entries:
     version: 1.0.3
   - apiVersion: v2
     appVersion: 1.0.2
-    created: "2023-05-12T20:37:51.739184+07:00"
+    created: "2023-05-12T20:38:12.57769+07:00"
     description: BioColab offers curated, ready-to-run notebooks, multi-omics data,
       and specialized applications designed specifically for bioinformaticians.
     digest: b8e962f3225315ca1f3162af78fcecbc9590f676804022ff149226bd515db3fd
@@ -136,7 +155,7 @@ entries:
     version: 1.0.2
   - apiVersion: v2
     appVersion: 1.0.1
-    created: "2023-05-12T20:37:51.722436+07:00"
+    created: "2023-05-12T20:38:12.574673+07:00"
     description: BioColab offers curated, ready-to-run notebooks, multi-omics data,
       and specialized applications designed specifically for bioinformaticians.
     digest: 380e041f43792af4627936eecb1cf28eb30407a10382c43a5ace28787c618af8
@@ -156,7 +175,7 @@ entries:
   ecosystem:
   - apiVersion: v2
     appVersion: 1.0.28
-    created: "2023-05-12T20:37:51.885995+07:00"
+    created: "2023-05-12T20:38:12.663655+07:00"
     description: BioTuring System is a GPU-accelerated single-cell and spatial platform
       developed by BioTuring®. It dramatically increases the computing performance
       of single-cell and spatial analysis by harnessing the power of the graphics
@@ -177,7 +196,7 @@ entries:
     version: 1.0.28
   - apiVersion: v2
     appVersion: 1.0.27
-    created: "2023-05-12T20:37:51.884361+07:00"
+    created: "2023-05-12T20:38:12.660764+07:00"
     description: BioTuring System is a GPU-accelerated single-cell and spatial platform
       developed by BioTuring®. It dramatically increases the computing performance
       of single-cell and spatial analysis by harnessing the power of the graphics
@@ -198,7 +217,7 @@ entries:
     version: 1.0.27
   - apiVersion: v2
     appVersion: 1.0.26
-    created: "2023-05-12T20:37:51.882562+07:00"
+    created: "2023-05-12T20:38:12.637878+07:00"
     description: BioTuring System is a GPU-accelerated single-cell and spatial platform
       developed by BioTuring®. It dramatically increases the computing performance
       of single-cell and spatial analysis by harnessing the power of the graphics
@@ -219,7 +238,7 @@ entries:
     version: 1.0.26
   - apiVersion: v2
     appVersion: 1.0.25
-    created: "2023-05-12T20:37:51.881197+07:00"
+    created: "2023-05-12T20:38:12.63654+07:00"
     description: BioTuring System is a GPU-accelerated single-cell and spatial platform
       developed by BioTuring®. It dramatically increases the computing performance
       of single-cell and spatial analysis by harnessing the power of the graphics
@@ -240,7 +259,7 @@ entries:
     version: 1.0.25
   - apiVersion: v2
     appVersion: 1.0.24
-    created: "2023-05-12T20:37:51.879771+07:00"
+    created: "2023-05-12T20:38:12.635083+07:00"
     description: BioTuring System is a GPU-accelerated single-cell and spatial platform
       developed by BioTuring®. It dramatically increases the computing performance
       of single-cell and spatial analysis by harnessing the power of the graphics
@@ -261,7 +280,7 @@ entries:
     version: 1.0.24
   - apiVersion: v2
     appVersion: 1.0.23
-    created: "2023-05-12T20:37:51.877234+07:00"
+    created: "2023-05-12T20:38:12.633432+07:00"
     description: BioTuring System is a GPU-accelerated single-cell and spatial platform
       developed by BioTuring®. It dramatically increases the computing performance
       of single-cell and spatial analysis by harnessing the power of the graphics
@@ -282,7 +301,7 @@ entries:
     version: 1.0.23
   - apiVersion: v2
     appVersion: 1.0.22
-    created: "2023-05-12T20:37:51.875556+07:00"
+    created: "2023-05-12T20:38:12.631942+07:00"
     description: BioTuring System is a GPU-accelerated single-cell and spatial platform
       developed by BioTuring®. It dramatically increases the computing performance
       of single-cell and spatial analysis by harnessing the power of the graphics
@@ -303,7 +322,7 @@ entries:
     version: 1.0.22
   - apiVersion: v2
     appVersion: 1.0.21
-    created: "2023-05-12T20:37:51.873795+07:00"
+    created: "2023-05-12T20:38:12.630432+07:00"
     description: BioTuring System is a GPU-accelerated single-cell and spatial platform
       developed by BioTuring®. It dramatically increases the computing performance
       of single-cell and spatial analysis by harnessing the power of the graphics
@@ -324,7 +343,7 @@ entries:
     version: 1.0.21
   - apiVersion: v2
     appVersion: 1.0.20
-    created: "2023-05-12T20:37:51.871879+07:00"
+    created: "2023-05-12T20:38:12.627707+07:00"
     description: BioTuring System is a GPU-accelerated single-cell and spatial platform
       developed by BioTuring®. It dramatically increases the computing performance
       of single-cell and spatial analysis by harnessing the power of the graphics
@@ -345,7 +364,7 @@ entries:
     version: 1.0.20
   - apiVersion: v2
     appVersion: 1.0.19
-    created: "2023-05-12T20:37:51.869743+07:00"
+    created: "2023-05-12T20:38:12.625831+07:00"
     description: BioTuring System is a GPU-accelerated single-cell and spatial platform
       developed by BioTuring®. It dramatically increases the computing performance
       of single-cell and spatial analysis by harnessing the power of the graphics
@@ -366,7 +385,7 @@ entries:
     version: 1.0.19
   - apiVersion: v2
     appVersion: 1.0.18
-    created: "2023-05-12T20:37:51.866338+07:00"
+    created: "2023-05-12T20:38:12.622731+07:00"
     description: BioTuring System is a GPU-accelerated single-cell and spatial platform
       developed by BioTuring®. It dramatically increases the computing performance
       of single-cell and spatial analysis by harnessing the power of the graphics
@@ -387,7 +406,7 @@ entries:
     version: 1.0.18
   - apiVersion: v2
     appVersion: 1.0.16
-    created: "2023-05-12T20:37:51.861947+07:00"
+    created: "2023-05-12T20:38:12.62026+07:00"
     description: BioTuring System is a GPU-accelerated single-cell and spatial platform
       developed by BioTuring®. It dramatically increases the computing performance
       of single-cell and spatial analysis by harnessing the power of the graphics
@@ -408,7 +427,7 @@ entries:
     version: 1.0.16
   undermoon-cluster:
   - apiVersion: v2
-    created: "2023-05-12T20:37:51.886898+07:00"
+    created: "2023-05-12T20:38:12.66478+07:00"
     description: Create undermoon CRD.
     digest: 95849b3dbd43ab518bd7b67d8d1544d0e293dcf9e44b28710f37a2101b38e83e
     maintainers:
@@ -422,7 +441,7 @@ entries:
   undermoon-operator:
   - apiVersion: v2
     appVersion: v0.4.2-dev0
-    created: "2023-05-12T20:37:51.888922+07:00"
+    created: "2023-05-12T20:38:12.667769+07:00"
     description: Undermoon operator is used to manage undermoon provideing redis cluster
       services.
     digest: 3dffd72dd9e4d8289cbc2f92cdc2f0282d29c028b810ca020032fca5aec7f664
@@ -437,7 +456,7 @@ entries:
   undermoon-scheduler:
   - apiVersion: v2
     appVersion: v0.1.0
-    created: "2023-05-12T20:37:51.889588+07:00"
+    created: "2023-05-12T20:38:12.668598+07:00"
     description: Undermoon scheduler is an optional component used to add additional
       scheduling rules.
     digest: 37816f676f6ef775a1d346de4c937c03482f62c0c72c826a2ae08423dfb3d1fd
@@ -449,4 +468,4 @@ entries:
     urls:
     - https://bioturing.github.io/charts/apps/undermoon-scheduler-0.4.2-dev0.tgz
     version: 0.4.2-dev0
-generated: "2023-05-12T20:37:51.719475+07:00"
+generated: "2023-05-12T20:38:12.566582+07:00"
