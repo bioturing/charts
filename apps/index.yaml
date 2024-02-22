@@ -2,8 +2,27 @@ apiVersion: v1
 entries:
   biocolab:
   - apiVersion: v2
+    appVersion: 2.0.50
+    created: "2024-02-22T16:21:41.97281846Z"
+    description: BioColab offers curated, ready-to-run notebooks, multi-omics data,
+      and specialized applications designed specifically for bioinformaticians.
+    digest: e3bdb7a8b62257dc5108a62a1074cac8135cdcdf9471ccd546f8093bbcfa11ca
+    home: https://bioturing.com
+    keywords:
+    - ingress
+    - nginx
+    maintainers:
+    - name: support@bioturing.com
+    name: biocolab
+    sources:
+    - https://github.com/bioturing/helmchart
+    type: application
+    urls:
+    - https://bioturing.github.io/charts/apps/biocolab-2.0.50.tgz
+    version: 2.0.50
+  - apiVersion: v2
     appVersion: 1.0.70
-    created: "2024-02-22T16:14:24.204864096Z"
+    created: "2024-02-22T16:21:41.966205701Z"
     description: BioColab offers curated, ready-to-run notebooks, multi-omics data,
       and specialized applications designed specifically for bioinformaticians.
     digest: 1b35837d2c5d0eff281e56c70e0c342c94aa1c6780eeddd6eab9e51a5550b8b1
@@ -22,7 +41,7 @@ entries:
     version: 1.0.70
   - apiVersion: v2
     appVersion: 1.0.69
-    created: "2024-02-22T16:14:24.183563636Z"
+    created: "2024-02-22T16:21:41.958059531Z"
     description: BioColab offers curated, ready-to-run notebooks, multi-omics data,
       and specialized applications designed specifically for bioinformaticians.
     digest: 4c0ef4c3e908bb434e4bcb643d4694e11bad8c5710f6deef1c1e27861c590658
@@ -41,7 +60,7 @@ entries:
     version: 1.0.69
   - apiVersion: v2
     appVersion: 1.0.68
-    created: "2024-02-22T16:14:24.179145319Z"
+    created: "2024-02-22T16:21:41.953691605Z"
     description: BioColab offers curated, ready-to-run notebooks, multi-omics data,
       and specialized applications designed specifically for bioinformaticians.
     digest: 0407a36a7ee09d480861747948375f9a3393c991b55945bb50764ec2d8b9733b
@@ -60,7 +79,7 @@ entries:
     version: 1.0.68
   - apiVersion: v2
     appVersion: 1.0.67
-    created: "2024-02-22T16:14:24.174772013Z"
+    created: "2024-02-22T16:21:41.94940483Z"
     description: BioColab offers curated, ready-to-run notebooks, multi-omics data,
       and specialized applications designed specifically for bioinformaticians.
     digest: ef4fb79db946ca884ee55be9d45be1c3c9318d96b55dfda1203b4d99888412c6
@@ -79,7 +98,7 @@ entries:
     version: 1.0.67
   - apiVersion: v2
     appVersion: 1.0.66
-    created: "2024-02-22T16:14:24.170440738Z"
+    created: "2024-02-22T16:21:41.945260009Z"
     description: BioColab offers curated, ready-to-run notebooks, multi-omics data,
       and specialized applications designed specifically for bioinformaticians.
     digest: ee1b1ca42b0bb2090c18e9b4990a0267406ffecdbb9067b9f6f68810fb311646
@@ -98,7 +117,7 @@ entries:
     version: 1.0.66
   - apiVersion: v2
     appVersion: 1.0.65
-    created: "2024-02-22T16:14:24.166117518Z"
+    created: "2024-02-22T16:21:41.941031495Z"
     description: BioColab offers curated, ready-to-run notebooks, multi-omics data,
       and specialized applications designed specifically for bioinformaticians.
     digest: f766373d7488503a8e62814d3c55dfb75612a974249d21c595cf63a0e8ea3615
@@ -117,7 +136,7 @@ entries:
     version: 1.0.65
   - apiVersion: v2
     appVersion: 1.0.64
-    created: "2024-02-22T16:14:24.161194801Z"
+    created: "2024-02-22T16:21:41.936219009Z"
     description: BioColab offers curated, ready-to-run notebooks, multi-omics data,
       and specialized applications designed specifically for bioinformaticians.
     digest: 918e2471048fc4c90e0b7836972610e7fc19bc7365fb40fcb3d59d79566f4212
@@ -136,7 +155,7 @@ entries:
     version: 1.0.64
   - apiVersion: v2
     appVersion: 1.0.63
-    created: "2024-02-22T16:14:24.156900698Z"
+    created: "2024-02-22T16:21:41.934248384Z"
     description: BioColab offers curated, ready-to-run notebooks, multi-omics data,
       and specialized applications designed specifically for bioinformaticians.
     digest: cc3e6d4c4ad156efd9f7c0f4cb2d4cf6d95e7e99db3ed13b02cdbea3b4def719
@@ -155,7 +174,7 @@ entries:
     version: 1.0.63
   - apiVersion: v2
     appVersion: 1.0.62
-    created: "2024-02-22T16:14:24.152364463Z"
+    created: "2024-02-22T16:21:41.932239108Z"
     description: BioColab offers curated, ready-to-run notebooks, multi-omics data,
       and specialized applications designed specifically for bioinformaticians.
     digest: 421bb8dbb67222cb81975a706feb88292bf96c6e40b6893f52b9fdbc9fead41b
@@ -174,7 +193,7 @@ entries:
     version: 1.0.62
   - apiVersion: v2
     appVersion: 1.0.61
-    created: "2024-02-22T16:14:24.146994157Z"
+    created: "2024-02-22T16:21:41.930196112Z"
     description: BioColab offers curated, ready-to-run notebooks, multi-omics data,
       and specialized applications designed specifically for bioinformaticians.
     digest: 277b6d336be8629f1dbaf1422ae8d560b239a899fdc28cea7e588ff5e9ebdcf3
@@ -193,7 +212,7 @@ entries:
     version: 1.0.61
   - apiVersion: v2
     appVersion: 1.0.60
-    created: "2024-02-22T16:14:24.143573436Z"
+    created: "2024-02-22T16:21:41.928210034Z"
     description: BioColab offers curated, ready-to-run notebooks, multi-omics data,
       and specialized applications designed specifically for bioinformaticians.
     digest: c39541cd345f23b6acca19c070f283df2a4ae5d6ca16a8d118402250862beaee
@@ -212,7 +231,7 @@ entries:
     version: 1.0.60
   - apiVersion: v2
     appVersion: 1.0.59
-    created: "2024-02-22T16:14:24.136805646Z"
+    created: "2024-02-22T16:21:41.924265579Z"
     description: BioColab offers curated, ready-to-run notebooks, multi-omics data,
       and specialized applications designed specifically for bioinformaticians.
     digest: eb7e940f9dc1f119b4ef6edb88bd04f2cba0f9e263ae0a9fdb0c82c8c386c7b2
@@ -231,7 +250,7 @@ entries:
     version: 1.0.59
   - apiVersion: v2
     appVersion: 1.0.58
-    created: "2024-02-22T16:14:24.133425543Z"
+    created: "2024-02-22T16:21:41.922279318Z"
     description: BioColab offers curated, ready-to-run notebooks, multi-omics data,
       and specialized applications designed specifically for bioinformaticians.
     digest: 02fe0255d3ffb981384382b5b41ffaf7cfa32e1b9b11ad979fcbefd5d382eba4
@@ -250,7 +269,7 @@ entries:
     version: 1.0.58
   - apiVersion: v2
     appVersion: 1.0.57
-    created: "2024-02-22T16:14:24.129892776Z"
+    created: "2024-02-22T16:21:41.920307093Z"
     description: BioColab offers curated, ready-to-run notebooks, multi-omics data,
       and specialized applications designed specifically for bioinformaticians.
     digest: 17a4d64ea8ab876eeb071d2897e5238953d5d226bd8de70560f0664625382a1f
@@ -269,7 +288,7 @@ entries:
     version: 1.0.57
   - apiVersion: v2
     appVersion: 1.0.56
-    created: "2024-02-22T16:14:24.125155083Z"
+    created: "2024-02-22T16:21:41.918197666Z"
     description: BioColab offers curated, ready-to-run notebooks, multi-omics data,
       and specialized applications designed specifically for bioinformaticians.
     digest: be04e0d0227e0dfd4eb111c36ce76272ac8c43f757b2426da8f8df432db3dd59
@@ -288,7 +307,7 @@ entries:
     version: 1.0.56
   - apiVersion: v2
     appVersion: 1.0.55
-    created: "2024-02-22T16:14:24.120530812Z"
+    created: "2024-02-22T16:21:41.915553865Z"
     description: BioColab offers curated, ready-to-run notebooks, multi-omics data,
       and specialized applications designed specifically for bioinformaticians.
     digest: a5dac5fbc652a429256de7b0389e312300b6ffd8bff44d6ef556cf2ce78ba6ee
@@ -307,7 +326,7 @@ entries:
     version: 1.0.55
   - apiVersion: v2
     appVersion: 1.0.54
-    created: "2024-02-22T16:14:24.114263959Z"
+    created: "2024-02-22T16:21:41.914442189Z"
     description: BioColab offers curated, ready-to-run notebooks, multi-omics data,
       and specialized applications designed specifically for bioinformaticians.
     digest: d73be4b7581b15725914ececa538c6fde6a76157f44dcc30ac4bee0bf952cf8f
@@ -326,7 +345,7 @@ entries:
     version: 1.0.54
   - apiVersion: v2
     appVersion: 1.0.53
-    created: "2024-02-22T16:14:24.107574806Z"
+    created: "2024-02-22T16:21:41.913338514Z"
     description: BioColab offers curated, ready-to-run notebooks, multi-omics data,
       and specialized applications designed specifically for bioinformaticians.
     digest: 6efe03125f0137404d5417338d47512c1789fdb75e727209203e5d509243c4c6
@@ -345,7 +364,7 @@ entries:
     version: 1.0.53
   - apiVersion: v2
     appVersion: 1.0.52
-    created: "2024-02-22T16:14:24.10320338Z"
+    created: "2024-02-22T16:21:41.912228833Z"
     description: BioColab offers curated, ready-to-run notebooks, multi-omics data,
       and specialized applications designed specifically for bioinformaticians.
     digest: 87dcc17317a96786b13cdec658750864b8ff36e6c7fe0d0a592f104db18caa1a
@@ -364,7 +383,7 @@ entries:
     version: 1.0.52
   - apiVersion: v2
     appVersion: 1.0.50
-    created: "2024-02-22T16:14:24.098608702Z"
+    created: "2024-02-22T16:21:41.911095882Z"
     description: BioColab offers curated, ready-to-run notebooks, multi-omics data,
       and specialized applications designed specifically for bioinformaticians.
     digest: cc41959eb32914d7f440bf04a6ebf124aaf4b06f3c87625c4e40bc390dc338e3
@@ -383,7 +402,7 @@ entries:
     version: 1.0.50
   - apiVersion: v2
     appVersion: 1.0.44
-    created: "2024-02-22T16:14:24.088814462Z"
+    created: "2024-02-22T16:21:41.908850482Z"
     description: BioColab offers curated, ready-to-run notebooks, multi-omics data,
       and specialized applications designed specifically for bioinformaticians.
     digest: 3eaebb9369e6ea247f755d3aa951a73501f0754f75680738d4b0e73127c52418
@@ -402,7 +421,7 @@ entries:
     version: 1.0.44
   - apiVersion: v2
     appVersion: 1.0.43
-    created: "2024-02-22T16:14:24.083960647Z"
+    created: "2024-02-22T16:21:41.907659174Z"
     description: BioColab offers curated, ready-to-run notebooks, multi-omics data,
       and specialized applications designed specifically for bioinformaticians.
     digest: 2093b5e7f1a6c07a70475351ccffc1b73045b2bc9f3aee3170e13d6f80a09bc0
@@ -421,7 +440,7 @@ entries:
     version: 1.0.43
   - apiVersion: v2
     appVersion: 1.0.42
-    created: "2024-02-22T16:14:24.061970749Z"
+    created: "2024-02-22T16:21:41.906423277Z"
     description: BioColab offers curated, ready-to-run notebooks, multi-omics data,
       and specialized applications designed specifically for bioinformaticians.
     digest: 90dd958c3b62459761ccc34b92e8b192c642383960d387cfadf97286afcdc3ff
@@ -440,7 +459,7 @@ entries:
     version: 1.0.42
   - apiVersion: v2
     appVersion: 1.0.41
-    created: "2024-02-22T16:14:24.050863856Z"
+    created: "2024-02-22T16:21:41.905301579Z"
     description: BioColab offers curated, ready-to-run notebooks, multi-omics data,
       and specialized applications designed specifically for bioinformaticians.
     digest: 29e9f01a9cb2da4a588ea59cf86f633cc9d9cacebf94093757303aa7a74fb49c
@@ -459,7 +478,7 @@ entries:
     version: 1.0.41
   - apiVersion: v2
     appVersion: 1.0.40
-    created: "2024-02-22T16:14:24.041562876Z"
+    created: "2024-02-22T16:21:41.903037279Z"
     description: BioColab offers curated, ready-to-run notebooks, multi-omics data,
       and specialized applications designed specifically for bioinformaticians.
     digest: 6da890c71151052e45fd5c020841dbd11fbc4f822482c249db8512e86548e9cc
@@ -478,7 +497,7 @@ entries:
     version: 1.0.40
   - apiVersion: v2
     appVersion: 1.0.39
-    created: "2024-02-22T16:14:24.029982536Z"
+    created: "2024-02-22T16:21:41.900738726Z"
     description: BioColab offers curated, ready-to-run notebooks, multi-omics data,
       and specialized applications designed specifically for bioinformaticians.
     digest: 89911a336824ca9e39afbe2a13f1f5c301090840016cc68b0449778dcbdeffcf
@@ -497,7 +516,7 @@ entries:
     version: 1.0.39
   - apiVersion: v2
     appVersion: 1.0.38
-    created: "2024-02-22T16:14:24.025780877Z"
+    created: "2024-02-22T16:21:41.899531914Z"
     description: BioColab offers curated, ready-to-run notebooks, multi-omics data,
       and specialized applications designed specifically for bioinformaticians.
     digest: 401021a6af5ddc3f0af57ff4f3ee81a8416f90fd9314e1f49d0b6084b6af0f2f
@@ -516,7 +535,7 @@ entries:
     version: 1.0.38
   - apiVersion: v2
     appVersion: 1.0.37
-    created: "2024-02-22T16:14:24.021605399Z"
+    created: "2024-02-22T16:21:41.898290043Z"
     description: BioColab offers curated, ready-to-run notebooks, multi-omics data,
       and specialized applications designed specifically for bioinformaticians.
     digest: fcd66715654f9664159398e565c41c0d3e9af16035912bc6504158a958582007
@@ -535,7 +554,7 @@ entries:
     version: 1.0.37
   - apiVersion: v2
     appVersion: 1.0.36
-    created: "2024-02-22T16:14:24.017456311Z"
+    created: "2024-02-22T16:21:41.897114125Z"
     description: BioColab offers curated, ready-to-run notebooks, multi-omics data,
       and specialized applications designed specifically for bioinformaticians.
     digest: 7db43e3f6716357796e5d61fe90f80b09317958ef9b4c98d8acebe46ca254cc1
@@ -554,7 +573,7 @@ entries:
     version: 1.0.36
   - apiVersion: v2
     appVersion: 1.0.35
-    created: "2024-02-22T16:14:24.013082807Z"
+    created: "2024-02-22T16:21:41.895937268Z"
     description: BioColab offers curated, ready-to-run notebooks, multi-omics data,
       and specialized applications designed specifically for bioinformaticians.
     digest: a73db82a62c803afeb0782ebd8bef077a6295cfdc08b9be27921e3612cffb7fe
@@ -573,7 +592,7 @@ entries:
     version: 1.0.35
   - apiVersion: v2
     appVersion: 1.0.34
-    created: "2024-02-22T16:14:24.008837828Z"
+    created: "2024-02-22T16:21:41.894693687Z"
     description: BioColab offers curated, ready-to-run notebooks, multi-omics data,
       and specialized applications designed specifically for bioinformaticians.
     digest: 2e0b18b1f551de2a09c3098b25aa8dfe2571315305e9ee2fab77dc2af205979f
@@ -592,7 +611,7 @@ entries:
     version: 1.0.34
   - apiVersion: v2
     appVersion: 1.0.33
-    created: "2024-02-22T16:14:24.004673917Z"
+    created: "2024-02-22T16:21:41.893470407Z"
     description: BioColab offers curated, ready-to-run notebooks, multi-omics data,
       and specialized applications designed specifically for bioinformaticians.
     digest: ff7302aaaffd7f65b177f57ba82e02273b919a945a76b74efef19f37b1ac67f4
@@ -611,7 +630,7 @@ entries:
     version: 1.0.33
   - apiVersion: v2
     appVersion: 1.0.32
-    created: "2024-02-22T16:14:24.00044269Z"
+    created: "2024-02-22T16:21:41.892224855Z"
     description: BioColab offers curated, ready-to-run notebooks, multi-omics data,
       and specialized applications designed specifically for bioinformaticians.
     digest: 43cfc4704f3a163c25928c20f623b13eb5ff6ccce0916de750c9b85dbfb82f50
@@ -630,7 +649,7 @@ entries:
     version: 1.0.32
   - apiVersion: v2
     appVersion: 1.0.31
-    created: "2024-02-22T16:14:23.996150725Z"
+    created: "2024-02-22T16:21:41.888870223Z"
     description: BioColab offers curated, ready-to-run notebooks, multi-omics data,
       and specialized applications designed specifically for bioinformaticians.
     digest: 8105ede17c21fad5ee54cd531d97b9f0a85b923afeb3ed54cd92570051e5e29d
@@ -649,7 +668,7 @@ entries:
     version: 1.0.31
   - apiVersion: v2
     appVersion: 1.0.30
-    created: "2024-02-22T16:14:23.991693462Z"
+    created: "2024-02-22T16:21:41.887758827Z"
     description: BioColab offers curated, ready-to-run notebooks, multi-omics data,
       and specialized applications designed specifically for bioinformaticians.
     digest: 7f1cd4dc17bb271a0ed9ce273615193ef88f149e5601d64c8519483eb2d675e3
@@ -668,7 +687,7 @@ entries:
     version: 1.0.30
   - apiVersion: v2
     appVersion: 1.0.29
-    created: "2024-02-22T16:14:23.986073358Z"
+    created: "2024-02-22T16:21:41.885512449Z"
     description: BioColab offers curated, ready-to-run notebooks, multi-omics data,
       and specialized applications designed specifically for bioinformaticians.
     digest: 265f6986c97ededc989dc3c90e77bed111617c361eaa35ac33333a838392ecc2
@@ -687,7 +706,7 @@ entries:
     version: 1.0.29
   - apiVersion: v2
     appVersion: 1.0.28
-    created: "2024-02-22T16:14:23.984297406Z"
+    created: "2024-02-22T16:21:41.884379436Z"
     description: BioColab offers curated, ready-to-run notebooks, multi-omics data,
       and specialized applications designed specifically for bioinformaticians.
     digest: 84ffe4acd3a0975ab97b5a4c3e3bb255cb857fc3c6f7f13280dc61e46abb4337
@@ -706,7 +725,7 @@ entries:
     version: 1.0.28
   - apiVersion: v2
     appVersion: 1.0.27
-    created: "2024-02-22T16:14:23.982438637Z"
+    created: "2024-02-22T16:21:41.883241979Z"
     description: BioColab offers curated, ready-to-run notebooks, multi-omics data,
       and specialized applications designed specifically for bioinformaticians.
     digest: c776eb77df40b1f09027dce8cd57c97b7b521d704aae39e6ddaf652e8c4b969a
@@ -725,7 +744,7 @@ entries:
     version: 1.0.27
   - apiVersion: v2
     appVersion: 1.0.26
-    created: "2024-02-22T16:14:23.98068097Z"
+    created: "2024-02-22T16:21:41.882084864Z"
     description: BioColab offers curated, ready-to-run notebooks, multi-omics data,
       and specialized applications designed specifically for bioinformaticians.
     digest: fcaaa1167fb03e081c2e6f8e0c5a3af3d3c213028056d0be5c12ca54ca0055aa
@@ -744,7 +763,7 @@ entries:
     version: 1.0.26
   - apiVersion: v2
     appVersion: 1.0.25
-    created: "2024-02-22T16:14:23.978857227Z"
+    created: "2024-02-22T16:21:41.880917836Z"
     description: BioColab offers curated, ready-to-run notebooks, multi-omics data,
       and specialized applications designed specifically for bioinformaticians.
     digest: 32547c0127b9edf45a8969c732267f9de31d494a83650e9664877b5abeba2706
@@ -763,7 +782,7 @@ entries:
     version: 1.0.25
   - apiVersion: v2
     appVersion: 1.0.24
-    created: "2024-02-22T16:14:23.97708471Z"
+    created: "2024-02-22T16:21:41.879761713Z"
     description: BioColab offers curated, ready-to-run notebooks, multi-omics data,
       and specialized applications designed specifically for bioinformaticians.
     digest: b4c0d74ee1c208a650df32141fc858d728ca0aa928612fe0d0d48d084ba54929
@@ -782,7 +801,7 @@ entries:
     version: 1.0.24
   - apiVersion: v2
     appVersion: 1.0.23
-    created: "2024-02-22T16:14:23.975303202Z"
+    created: "2024-02-22T16:21:41.878548269Z"
     description: BioColab offers curated, ready-to-run notebooks, multi-omics data,
       and specialized applications designed specifically for bioinformaticians.
     digest: d599e047db0ad455db7e0893932556202a2429c809c295d88cf4d83f9db42e29
@@ -801,7 +820,7 @@ entries:
     version: 1.0.23
   - apiVersion: v2
     appVersion: 1.0.22
-    created: "2024-02-22T16:14:23.973472829Z"
+    created: "2024-02-22T16:21:41.876228472Z"
     description: BioColab offers curated, ready-to-run notebooks, multi-omics data,
       and specialized applications designed specifically for bioinformaticians.
     digest: affbbef633db6d18a800cd03ca3fbcf6d155879d05c4ac76b4b2dd1e00614958
@@ -820,7 +839,7 @@ entries:
     version: 1.0.22
   - apiVersion: v2
     appVersion: 1.0.21
-    created: "2024-02-22T16:14:23.971504493Z"
+    created: "2024-02-22T16:21:41.874970874Z"
     description: BioColab offers curated, ready-to-run notebooks, multi-omics data,
       and specialized applications designed specifically for bioinformaticians.
     digest: e11e6072ade28ad74660fab53cb35b1a79ec72dde417868a1b2c4885b75742ae
@@ -839,7 +858,7 @@ entries:
     version: 1.0.21
   - apiVersion: v2
     appVersion: 1.0.20
-    created: "2024-02-22T16:14:23.967401357Z"
+    created: "2024-02-22T16:21:41.873799724Z"
     description: BioColab offers curated, ready-to-run notebooks, multi-omics data,
       and specialized applications designed specifically for bioinformaticians.
     digest: 09c82b94af83aaef071fc73dc64931cc7b856d24d9a045e97b7d10993bcf0ea0
@@ -858,7 +877,7 @@ entries:
     version: 1.0.20
   - apiVersion: v2
     appVersion: 1.0.19
-    created: "2024-02-22T16:14:23.962899121Z"
+    created: "2024-02-22T16:21:41.871421263Z"
     description: BioColab offers curated, ready-to-run notebooks, multi-omics data,
       and specialized applications designed specifically for bioinformaticians.
     digest: 504b93c2c8eca2f33cb8c6f0d103d8f0b97465536d3abeff8ae53e51f0df10ab
@@ -877,7 +896,7 @@ entries:
     version: 1.0.19
   - apiVersion: v2
     appVersion: 1.0.17
-    created: "2024-02-22T16:14:23.960829891Z"
+    created: "2024-02-22T16:21:41.870188219Z"
     description: BioColab offers curated, ready-to-run notebooks, multi-omics data,
       and specialized applications designed specifically for bioinformaticians.
     digest: d9fe20084c06698e55790716c82a32469b6de3a4ec4f881d37e9f3fbfe3ca4d7
@@ -896,7 +915,7 @@ entries:
     version: 1.0.17
   - apiVersion: v2
     appVersion: 1.0.16
-    created: "2024-02-22T16:14:23.958271714Z"
+    created: "2024-02-22T16:21:41.868931035Z"
     description: BioColab offers curated, ready-to-run notebooks, multi-omics data,
       and specialized applications designed specifically for bioinformaticians.
     digest: a3e9c8808378b1d3207ebbc7000a049d90249c6693bdc97744e7b6eebce64845
@@ -915,7 +934,7 @@ entries:
     version: 1.0.16
   - apiVersion: v2
     appVersion: 1.0.15
-    created: "2024-02-22T16:14:23.955786278Z"
+    created: "2024-02-22T16:21:41.86769541Z"
     description: BioColab offers curated, ready-to-run notebooks, multi-omics data,
       and specialized applications designed specifically for bioinformaticians.
     digest: 818d1019c9a521de9b0817a896476e32c5658aa593783ef54770a1aed1a8b310
@@ -934,7 +953,7 @@ entries:
     version: 1.0.15
   - apiVersion: v2
     appVersion: 1.0.14
-    created: "2024-02-22T16:14:23.953431043Z"
+    created: "2024-02-22T16:21:41.866457045Z"
     description: BioColab offers curated, ready-to-run notebooks, multi-omics data,
       and specialized applications designed specifically for bioinformaticians.
     digest: 2a9ac2cd7a4a3ccc6539950d8eb6e74ab36855af74bf6aada2ff1742739d387d
@@ -953,7 +972,7 @@ entries:
     version: 1.0.14
   - apiVersion: v2
     appVersion: 1.0.13
-    created: "2024-02-22T16:14:23.951209502Z"
+    created: "2024-02-22T16:21:41.865173838Z"
     description: BioColab offers curated, ready-to-run notebooks, multi-omics data,
       and specialized applications designed specifically for bioinformaticians.
     digest: 8bebdbe61d7537e90ccab464cd741930d5d07ee6a927b68e3c6951f63422c6da
@@ -972,7 +991,7 @@ entries:
     version: 1.0.13
   - apiVersion: v2
     appVersion: 1.0.12
-    created: "2024-02-22T16:14:23.948634404Z"
+    created: "2024-02-22T16:21:41.862605856Z"
     description: BioColab offers curated, ready-to-run notebooks, multi-omics data,
       and specialized applications designed specifically for bioinformaticians.
     digest: 8bfc960137d8463e2bd6eddf7aab843ed14979487df70241923def7977d83331
@@ -991,7 +1010,7 @@ entries:
     version: 1.0.12
   - apiVersion: v2
     appVersion: 1.0.11
-    created: "2024-02-22T16:14:23.946576954Z"
+    created: "2024-02-22T16:21:41.861313287Z"
     description: BioColab offers curated, ready-to-run notebooks, multi-omics data,
       and specialized applications designed specifically for bioinformaticians.
     digest: 3e9d030ee56477a8964860394ed5c9f64377831f3012d90cab9b55e576b98ba1
@@ -1010,7 +1029,7 @@ entries:
     version: 1.0.11
   - apiVersion: v2
     appVersion: 1.0.10
-    created: "2024-02-22T16:14:23.943283458Z"
+    created: "2024-02-22T16:21:41.860026784Z"
     description: BioColab offers curated, ready-to-run notebooks, multi-omics data,
       and specialized applications designed specifically for bioinformaticians.
     digest: cd1d117fda7cd014e5031525754ca33f3b5557140f2c95fa50513772109fe24e
@@ -1029,7 +1048,7 @@ entries:
     version: 1.0.10
   - apiVersion: v2
     appVersion: 1.0.9
-    created: "2024-02-22T16:14:24.211347203Z"
+    created: "2024-02-22T16:21:41.96955438Z"
     description: BioColab offers curated, ready-to-run notebooks, multi-omics data,
       and specialized applications designed specifically for bioinformaticians.
     digest: 8678df1fb10a8b56144c32f0a9b9b436eaac40479c3ba39d45c2b35a7a428f78
@@ -1048,7 +1067,7 @@ entries:
     version: 1.0.9
   - apiVersion: v2
     appVersion: 1.0.7
-    created: "2024-02-22T16:14:24.187971834Z"
+    created: "2024-02-22T16:21:41.962244438Z"
     description: BioColab offers curated, ready-to-run notebooks, multi-omics data,
       and specialized applications designed specifically for bioinformaticians.
     digest: 0306bef78acaaf3b8952b9f2db8ec6fdd22759b93f8d033a82de4553e82d6e3d
@@ -1067,7 +1086,7 @@ entries:
     version: 1.0.7
   - apiVersion: v2
     appVersion: 1.0.6
-    created: "2024-02-22T16:14:24.140134411Z"
+    created: "2024-02-22T16:21:41.926203957Z"
     description: BioColab offers curated, ready-to-run notebooks, multi-omics data,
       and specialized applications designed specifically for bioinformaticians.
     digest: 83fb6e8aa3f32b94069d0bf4519c607fc23ce43545a313232f96823348faca8d
@@ -1086,7 +1105,7 @@ entries:
     version: 1.0.6
   - apiVersion: v2
     appVersion: 1.0.5
-    created: "2024-02-22T16:14:24.093793252Z"
+    created: "2024-02-22T16:21:41.909990317Z"
     description: BioColab offers curated, ready-to-run notebooks, multi-omics data,
       and specialized applications designed specifically for bioinformaticians.
     digest: 06459bcbfccf6114ad6368b62cf073a3aef76cd1801b276d663db1a5f06a7204
@@ -1105,7 +1124,7 @@ entries:
     version: 1.0.5
   - apiVersion: v2
     appVersion: 1.0.4
-    created: "2024-02-22T16:14:24.03650471Z"
+    created: "2024-02-22T16:21:41.901908567Z"
     description: BioColab offers curated, ready-to-run notebooks, multi-omics data,
       and specialized applications designed specifically for bioinformaticians.
     digest: 67deff76b57c7b5da4a34b69092067f5b3c7cb55313b25ab956e28c62040a73a
@@ -1124,7 +1143,7 @@ entries:
     version: 1.0.4
   - apiVersion: v2
     appVersion: 1.0.3
-    created: "2024-02-22T16:14:23.987831133Z"
+    created: "2024-02-22T16:21:41.886623095Z"
     description: BioColab offers curated, ready-to-run notebooks, multi-omics data,
       and specialized applications designed specifically for bioinformaticians.
     digest: 89be2addf673957ed6377e60ac9f921232de74abb141eff050e2e13942db470a
@@ -1143,7 +1162,7 @@ entries:
     version: 1.0.3
   - apiVersion: v2
     appVersion: 1.0.2
-    created: "2024-02-22T16:14:23.964858646Z"
+    created: "2024-02-22T16:21:41.872624162Z"
     description: BioColab offers curated, ready-to-run notebooks, multi-omics data,
       and specialized applications designed specifically for bioinformaticians.
     digest: b8e962f3225315ca1f3162af78fcecbc9590f676804022ff149226bd515db3fd
@@ -1162,7 +1181,7 @@ entries:
     version: 1.0.2
   - apiVersion: v2
     appVersion: 1.0.1
-    created: "2024-02-22T16:14:23.941618204Z"
+    created: "2024-02-22T16:21:41.858714056Z"
     description: BioColab offers curated, ready-to-run notebooks, multi-omics data,
       and specialized applications designed specifically for bioinformaticians.
     digest: 380e041f43792af4627936eecb1cf28eb30407a10382c43a5ace28787c618af8
@@ -1182,7 +1201,7 @@ entries:
   ecosystem:
   - apiVersion: v2
     appVersion: 1.0.31
-    created: "2024-02-22T16:14:24.261087894Z"
+    created: "2024-02-22T16:21:42.003604121Z"
     description: BioTuring System is a GPU-accelerated single-cell and spatial platform
       developed by BioTuring®. It dramatically increases the computing performance
       of single-cell and spatial analysis by harnessing the power of the graphics
@@ -1203,7 +1222,7 @@ entries:
     version: 1.0.31
   - apiVersion: v2
     appVersion: 1.0.30
-    created: "2024-02-22T16:14:24.256335809Z"
+    created: "2024-02-22T16:21:41.999270433Z"
     description: BioTuring System is a GPU-accelerated single-cell and spatial platform
       developed by BioTuring®. It dramatically increases the computing performance
       of single-cell and spatial analysis by harnessing the power of the graphics
@@ -1224,7 +1243,7 @@ entries:
     version: 1.0.30
   - apiVersion: v2
     appVersion: 1.0.29
-    created: "2024-02-22T16:14:24.240858915Z"
+    created: "2024-02-22T16:21:41.997516911Z"
     description: BioTuring System is a GPU-accelerated single-cell and spatial platform
       developed by BioTuring®. It dramatically increases the computing performance
       of single-cell and spatial analysis by harnessing the power of the graphics
@@ -1245,7 +1264,7 @@ entries:
     version: 1.0.29
   - apiVersion: v2
     appVersion: 1.0.28
-    created: "2024-02-22T16:14:24.231511769Z"
+    created: "2024-02-22T16:21:41.995672055Z"
     description: BioTuring System is a GPU-accelerated single-cell and spatial platform
       developed by BioTuring®. It dramatically increases the computing performance
       of single-cell and spatial analysis by harnessing the power of the graphics
@@ -1266,7 +1285,7 @@ entries:
     version: 1.0.28
   - apiVersion: v2
     appVersion: 1.0.27
-    created: "2024-02-22T16:14:24.229865851Z"
+    created: "2024-02-22T16:21:41.993963095Z"
     description: BioTuring System is a GPU-accelerated single-cell and spatial platform
       developed by BioTuring®. It dramatically increases the computing performance
       of single-cell and spatial analysis by harnessing the power of the graphics
@@ -1287,7 +1306,7 @@ entries:
     version: 1.0.27
   - apiVersion: v2
     appVersion: 1.0.26
-    created: "2024-02-22T16:14:24.228189517Z"
+    created: "2024-02-22T16:21:41.99230482Z"
     description: BioTuring System is a GPU-accelerated single-cell and spatial platform
       developed by BioTuring®. It dramatically increases the computing performance
       of single-cell and spatial analysis by harnessing the power of the graphics
@@ -1308,7 +1327,7 @@ entries:
     version: 1.0.26
   - apiVersion: v2
     appVersion: 1.0.25
-    created: "2024-02-22T16:14:24.226548219Z"
+    created: "2024-02-22T16:21:41.990507659Z"
     description: BioTuring System is a GPU-accelerated single-cell and spatial platform
       developed by BioTuring®. It dramatically increases the computing performance
       of single-cell and spatial analysis by harnessing the power of the graphics
@@ -1329,7 +1348,7 @@ entries:
     version: 1.0.25
   - apiVersion: v2
     appVersion: 1.0.24
-    created: "2024-02-22T16:14:24.224847842Z"
+    created: "2024-02-22T16:21:41.988806726Z"
     description: BioTuring System is a GPU-accelerated single-cell and spatial platform
       developed by BioTuring®. It dramatically increases the computing performance
       of single-cell and spatial analysis by harnessing the power of the graphics
@@ -1350,7 +1369,7 @@ entries:
     version: 1.0.24
   - apiVersion: v2
     appVersion: 1.0.23
-    created: "2024-02-22T16:14:24.223148366Z"
+    created: "2024-02-22T16:21:41.987029472Z"
     description: BioTuring System is a GPU-accelerated single-cell and spatial platform
       developed by BioTuring®. It dramatically increases the computing performance
       of single-cell and spatial analysis by harnessing the power of the graphics
@@ -1371,7 +1390,7 @@ entries:
     version: 1.0.23
   - apiVersion: v2
     appVersion: 1.0.22
-    created: "2024-02-22T16:14:24.221427227Z"
+    created: "2024-02-22T16:21:41.985414747Z"
     description: BioTuring System is a GPU-accelerated single-cell and spatial platform
       developed by BioTuring®. It dramatically increases the computing performance
       of single-cell and spatial analysis by harnessing the power of the graphics
@@ -1392,7 +1411,7 @@ entries:
     version: 1.0.22
   - apiVersion: v2
     appVersion: 1.0.21
-    created: "2024-02-22T16:14:24.21974789Z"
+    created: "2024-02-22T16:21:41.983799639Z"
     description: BioTuring System is a GPU-accelerated single-cell and spatial platform
       developed by BioTuring®. It dramatically increases the computing performance
       of single-cell and spatial analysis by harnessing the power of the graphics
@@ -1413,7 +1432,7 @@ entries:
     version: 1.0.21
   - apiVersion: v2
     appVersion: 1.0.20
-    created: "2024-02-22T16:14:24.21803921Z"
+    created: "2024-02-22T16:21:41.982104337Z"
     description: BioTuring System is a GPU-accelerated single-cell and spatial platform
       developed by BioTuring®. It dramatically increases the computing performance
       of single-cell and spatial analysis by harnessing the power of the graphics
@@ -1434,7 +1453,7 @@ entries:
     version: 1.0.20
   - apiVersion: v2
     appVersion: 1.0.19
-    created: "2024-02-22T16:14:24.216340105Z"
+    created: "2024-02-22T16:21:41.980314354Z"
     description: BioTuring System is a GPU-accelerated single-cell and spatial platform
       developed by BioTuring®. It dramatically increases the computing performance
       of single-cell and spatial analysis by harnessing the power of the graphics
@@ -1455,7 +1474,7 @@ entries:
     version: 1.0.19
   - apiVersion: v2
     appVersion: 1.0.18
-    created: "2024-02-22T16:14:24.214668488Z"
+    created: "2024-02-22T16:21:41.978599094Z"
     description: BioTuring System is a GPU-accelerated single-cell and spatial platform
       developed by BioTuring®. It dramatically increases the computing performance
       of single-cell and spatial analysis by harnessing the power of the graphics
@@ -1476,7 +1495,7 @@ entries:
     version: 1.0.18
   - apiVersion: v2
     appVersion: 1.0.16
-    created: "2024-02-22T16:14:24.213106285Z"
+    created: "2024-02-22T16:21:41.975078493Z"
     description: BioTuring System is a GPU-accelerated single-cell and spatial platform
       developed by BioTuring®. It dramatically increases the computing performance
       of single-cell and spatial analysis by harnessing the power of the graphics
@@ -1497,7 +1516,7 @@ entries:
     version: 1.0.16
   undermoon-cluster:
   - apiVersion: v2
-    created: "2024-02-22T16:14:24.262722949Z"
+    created: "2024-02-22T16:21:42.004889509Z"
     description: Create undermoon CRD.
     digest: 95849b3dbd43ab518bd7b67d8d1544d0e293dcf9e44b28710f37a2101b38e83e
     maintainers:
@@ -1511,7 +1530,7 @@ entries:
   undermoon-operator:
   - apiVersion: v2
     appVersion: v0.4.2-dev0
-    created: "2024-02-22T16:14:24.266961212Z"
+    created: "2024-02-22T16:21:42.007892303Z"
     description: Undermoon operator is used to manage undermoon provideing redis cluster
       services.
     digest: 3dffd72dd9e4d8289cbc2f92cdc2f0282d29c028b810ca020032fca5aec7f664
@@ -1526,7 +1545,7 @@ entries:
   undermoon-scheduler:
   - apiVersion: v2
     appVersion: v0.1.0
-    created: "2024-02-22T16:14:24.268310467Z"
+    created: "2024-02-22T16:21:42.008628501Z"
     description: Undermoon scheduler is an optional component used to add additional
       scheduling rules.
     digest: 37816f676f6ef775a1d346de4c937c03482f62c0c72c826a2ae08423dfb3d1fd
@@ -1538,4 +1557,4 @@ entries:
     urls:
     - https://bioturing.github.io/charts/apps/undermoon-scheduler-0.4.2-dev0.tgz
     version: 0.4.2-dev0
-generated: "2024-02-22T16:14:23.925986736Z"
+generated: "2024-02-22T16:21:41.857197251Z"
